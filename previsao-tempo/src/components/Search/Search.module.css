@@ -1,0 +1,30 @@
+h1{
+    color: var(--white);
+}
+.containInformationClimate{
+    max-width: 1000px;
+    padding: 1.5rem;
+    margin: 0 auto;
+    text-align: center;
+}
+.containInformationClimate div{
+    margin: .5rem;
+}
+.containInformationClimate input, .containInformationClimate button{
+    height: 1.8rem;
+    border: none;
+    outline: none;
+}
+.containInformationClimate input{
+    width: 220px;
+    padding: .5rem;
+    border-radius: 1rem 0rem 0rem 1rem;
+    padding-left: 1rem;
+}
+.containInformationClimate button{
+    width: 75px;
+    border-radius: 0rem 1rem 1rem 0rem;
+    cursor: pointer;
+    color: var(--white);
+    background: var(--tomato);
+}

@@ -1,0 +1,29 @@
+.cardClimate{
+    width: 154px;
+    height: 250px;
+
+    border: solid 2px var(--white);
+    border-radius: .8rem;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ddeef8
+}
+.cardClimate img{
+    width: 4rem;
+}
+.divImgSpan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: solid;
+}
+.divInfoSpan{
+    display: flex;
+    flex-direction: column;
+}
+.divInfoSpan span{
+    font-weight: 500;
+}

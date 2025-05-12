@@ -1,0 +1,23 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*    background: linear-gradient(to rigth, #00b4db, );
+*/
+body{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg,#00b4db 0%, #0083b0 100%);    
+    color: #333;
+    line-height: 1.6;
+}
+:root{
+    --tomato: #ff9800;
+    --white: #f9f9f9;
+    --cyanOfCourse:#b1dcf8;
+}
+p, span{
+    text-transform: capitalize;
+}

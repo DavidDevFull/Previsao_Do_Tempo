@@ -1,0 +1,36 @@
+.styleContain, .styleDivNumberOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.styleContain{
+    border: solid 2px var(--white);
+    border-radius: .8rem;
+    background-color: var(--cyanOfCourse);
+}
+
+.styleDivNumberOne div{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+
+}
+.styleDivNumberOne div img{
+    width: clamp(3rem, 3.5vw, 225px);
+}
+
+.styleDivNumberOne div span{
+    font-size: clamp(1.5rem, 1.9vw, 200px);
+    font-weight: 700;
+
+}
+.styleDivNumberTwo{
+    padding-bottom: 1rem;
+    display: flex;
+    gap: clamp(1rem, 1.7vw, 2rem);
+}
+.styleDivNumberTwo span{
+    font-size: clamp(.7rem, 1.9vw, 1.1rem);
+    font-weight: 600;
+}
